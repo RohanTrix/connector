@@ -1,15 +1,16 @@
 {
-    "name" : "LinkedIn Connector",
-    "description" : "A chrome extension to connect to LinkedIn",
-    "version" : "1.0.1",
-    "manifest_version": 3,
-    "permissions": [
-        "activeTab",
-        "scripting",
-        "storage"
-      ],
-    "action" : {
-        "default_popup": "popup/popup.html"
-    }
-    
+  "name": "LinkedIn Connector",
+  "description": "A chrome extension to connect to LinkedIn",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+
+        "16": "images/icon16.png", 
+        "24": "images/icon24.png", 
+        "32": "images/icon32.png" 
+      }
+  }
 }
